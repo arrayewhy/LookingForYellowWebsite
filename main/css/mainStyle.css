@@ -1,0 +1,40 @@
+/*Fonts*/
+@import "fonts.css";
+
+html
+{
+	font-family: Lato;
+	color: black;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+/*Navigation*/
+.topNavContainer
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+
+	/*background-color: green;*/
+}
+
+.topNav
+{
+	padding-top: 10px;
+	padding-left: 10px;
+
+	/*background-color: purple;*/
+}
+
+.topNav a
+{
+	padding: 10px;
+	float: left;
+
+	/*background-color: red;*/
+}
