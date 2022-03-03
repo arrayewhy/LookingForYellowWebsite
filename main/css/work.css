@@ -1,1 +1,76 @@
 @import "mainStyle.css";
+
+.workTypeContainer
+{
+	width: 100%;
+
+	/*background-color: green;*/
+}
+
+/*Digital*/
+.workTypeDigital
+{
+	width: 50%;
+	height: 100vh;
+	float: left;
+
+	/*background-color: purple;*/
+}
+
+.workTypeDigital .icon
+{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	top: calc(50% - 175px);
+	left: calc(60% - 175px);
+
+	background-image: url(../images/digital-tiger.png);
+	background-size: 350px auto;
+	background-repeat: no-repeat;
+
+	/*background-color: blue;*/
+}
+
+.workTypeDigital .icon p
+{
+	position: relative;
+	top: 350px;
+	text-align: center;
+
+	/*background-color: red;*/
+}
+
+/*Traditional*/
+.workTypeTraditional
+{
+	width: 50%;
+	height: 100vh;
+	float: left;
+
+	/*background-color: yellow;*/
+}
+
+.workTypeTraditional .icon
+{
+	width: 350px;
+	height: 400px;
+	position: relative;
+	top: calc(50% - 200px);
+	left: calc(40% - 175px);
+
+	background-image: url(../images/traditional-tiger.png);
+	background-size: 350px auto;
+	background-repeat: no-repeat;
+
+	/*background-color: blue;*/
+}
+
+.workTypeTraditional .icon p
+{
+	position: relative;
+	top: 350px;
+	text-align: center;
+
+	/*background-color: red;*/
+}

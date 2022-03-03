@@ -1,15 +1,17 @@
-/*Fonts*/
 @import "fonts.css";
 
 html
 {
+	/*Fonts*/
 	font-family: Lato;
-	color: black;
+	color: rgb(120, 120, 120);
+
+	background-color: rgb(245, 245, 245);
 }
 
 a
 {
-	color: black;
+	color: rgb(120, 120, 120);
 	text-decoration: none;
 }
 
@@ -19,8 +21,12 @@ a
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	position: fixed;
+	padding-bottom: 10px;
 
-	/*background-color: green;*/
+	background-color: rgba(245, 245, 245, 0.5);
+
+	z-index: 100;
 }
 
 .topNav
@@ -36,5 +42,13 @@ a
 	padding: 10px;
 	float: left;
 
+	/*Transition*/
+	transition: color 0.5s;
+
 	/*background-color: red;*/
+}
+
+.topNav a:hover
+{
+	color: black;
 }

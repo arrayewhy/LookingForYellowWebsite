@@ -1,0 +1,32 @@
+@import "mainStyle.css";
+@import "gallery.css";
+
+#tigerPuff
+{
+	background-image: url(../images/digitalWork/tiger-puff-20-sat.png);
+	background-color: #ffe396;
+}
+
+#cozyKettle
+{
+	background-image: url(../images/digitalWork/cozy-kettle-30-sat-20-bri.png);
+	background-color: #4a8e70;
+}
+
+#cloudHouse
+{
+	background-image: url(../images/digitalWork/cloud-house-20-sat.png);
+	background-color: #f4fff7;
+}
+
+#warmTeaCup
+{
+	background-image: url(../images/digitalWork/warm-tea-cup-30-sat-70-bri.png);
+	background-color: black;
+}
+
+#littlePond
+{
+	background-image: url(../images/digitalWork/little-pond-20-sat.png);
+	background-color: #d4c194;
+}
